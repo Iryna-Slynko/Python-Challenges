@@ -1,2 +1,2 @@
 # Hello-World
-Hi there! Here you will find my software assignments and projects in Python.
+Hi there! Here are my completed challenges from leetcode and coursera.
