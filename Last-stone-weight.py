@@ -1,3 +1,5 @@
+#https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3297/
+
 class Solution:
 """We have a collection of stones, each stone has a positive integer weight.
 
