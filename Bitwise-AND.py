@@ -41,3 +41,30 @@ class Solution:
             num*=2
             num+=digit
         return num
+
+
+    """def toBitwise(self, num):
+        result=num
+        templist=[]
+        while result!=0:
+            bitnum=result%2
+            result=result//2
+            templist.insert(0,bitnum)
+        return templist
+        
+    def rangeBitwiseAnd(self, m: int, n: int) -> int:
+        bitlist=[]
+        nBit=self.toBitwise(n)
+        mBit=self.toBitwise(m)
+        if len(nBit)!=len(mBit):
+            return 0
+        result=0
+        diff=False
+        for i in range(len(nBit)):
+            result*=2
+            if not diff:
+                if nBit[i]==mBit[i]:
+                    result+=nBit[i]
+                else:
+                    diff=True
+        return result"""
