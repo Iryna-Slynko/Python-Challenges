@@ -1,3 +1,12 @@
+'''def is_palindrome(r_phrase):
+    j=0
+    for i in range(len(r_phrase)-1,len(r_phrase)//2,-1):
+        if r_phrase[j]!= r_phrase[i]:
+            return False
+        j+=1
+    return True
+print(is_palindrome(r_phrase))'''
+
 def is_palindrome(input_string):
 
 	new_string = ""
